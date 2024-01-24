@@ -1,0 +1,21 @@
+.nav {
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.nav_list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: red;
+}
